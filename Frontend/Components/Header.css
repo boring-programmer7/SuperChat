@@ -1,0 +1,50 @@
+.header{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+
+.header_left h6:hover{
+    cursor: pointer;
+}
+
+
+.header_right{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 200px;
+}
+
+
+.header_left{
+    width: 200px ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.header_avatar {
+    margin: 10 !important;
+    width: 60 !important;
+    height: 60 !important;
+}
+
+.header_center{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .header_left{
+       width: 100px;
+    }
+    .header_right{
+        width: 100px;
+    }
+}

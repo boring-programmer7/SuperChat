@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+ -webkit-appearance: none;
+
+}
+
+input{
+  font-family: 'Montserrat',
+  sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
